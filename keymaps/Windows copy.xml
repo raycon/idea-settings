@@ -1,0 +1,13 @@
+<keymap version="1" name="Windows copy" parent="$default">
+  <action id="EditorDown">
+    <keyboard-shortcut first-keystroke="down" />
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
+  <action id="EditorUp">
+    <keyboard-shortcut first-keystroke="up" />
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
+  <action id="one.util.ideaplugin.screenshoter.SaveImageAction">
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
+</keymap>
