@@ -1,0 +1,59 @@
+<templateSet group="raegon">
+  <template name="at" value="org.assertj.core.api.Assertions.assertThat($END$)" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="be" value="@org.junit.jupiter.api.BeforeEach&#10;void beforeEach() {&#10;  $END$&#10;}" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="captor" value="@Captor&#10;org.mockito.ArgumentCaptor&lt;$TYPE$&gt; captor;" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="cat" value="Throwable thrown = org.assertj.core.api.Assertions.catchThrowable(() -&gt; {$END$});" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="dn" value="@org.junit.jupiter.api.DisplayName(&quot;$DISPLAY_NAME$&quot;)" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="DISPLAY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="given" value="org.mockito.BDDMockito.given($MOCK$)$END$&#10;" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="MOCK" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="mo" value="@org.junit.jupiter.api.extension.ExtendWith(org.mockito.junit.jupiter.MockitoExtension.class)" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="test" value="// test&#10;@org.junit.jupiter.api.Test&#10;void $TEST_NAME$() {&#10;  // Given&#10;  $END$&#10;  // When&#10;&#10;  // Then&#10;&#10;}" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="TEST_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="etest" value="@org.junit.jupiter.params.ParameterizedTest&#10;@org.junit.jupiter.params.provider.EnumSource($TYPE$.class)&#10;void $TEST_NAME$($TYPE$ type) {&#10;  // Given&#10;  $END$&#10;  // When&#10;&#10;  // Then&#10;&#10;}" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TEST_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="verify" value="org.mockito.BDDMockito.verify($MOCK$)$END$" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="MOCK" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
