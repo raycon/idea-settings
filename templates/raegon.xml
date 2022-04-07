@@ -1,0 +1,34 @@
+<templateSet group="raegon">
+  <template name="at" value="org.assertj.core.api.Assertions.assertThat($END$)" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="be" value="@org.junit.jupiter.api.BeforeEach&#10;void beforeEach() {&#10;  $END$&#10;}&#10;" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="captor" value="@Captor&#10;org.mockito.ArgumentCaptor&lt;$TYPE$&gt; captor;" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ct" value="Throwable thrown = org.assertj.core.api.Assertions.catchThrowable(() -&gt; {$END$});" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="given" value="org.mockito.BDDMockito.given($MOCK$)$END$" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="MOCK" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="mo" value="@org.junit.jupiter.api.extension.ExtendWith(org.mockito.junit.jupiter.MockitoExtension.class)" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
