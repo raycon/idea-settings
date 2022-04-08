@@ -3,7 +3,7 @@
     <option name="COLLAPSE_IMPORTS" value="false" />
   </component>
   <component name="EditorSettings">
-    <option name="USE_SOFT_WRAPS" value="" />
+    <option name="USE_SOFT_WRAPS" value="CONSOLE" />
     <option name="IS_INDENT_GUIDES_SHOWN" value="false" />
   </component>
   <component name="JavaCodeFoldingSettings">
