@@ -1,0 +1,8 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="JSON" injector-id="java">
+      <display-name>CreateIndexRequest.mapping (org.opensearch.client.indices)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("mapping").withParameters("java.lang.String", "org.opensearch.common.xcontent.XContentType").definedInClass("org.opensearch.client.indices.CreateIndexRequest"))]]></place>
+    </injection>
+  </component>
+</application>
