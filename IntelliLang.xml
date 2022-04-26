@@ -4,5 +4,9 @@
       <display-name>CreateIndexRequest.mapping (org.opensearch.client.indices)</display-name>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("mapping").withParameters("java.lang.String", "org.opensearch.common.xcontent.XContentType").definedInClass("org.opensearch.client.indices.CreateIndexRequest"))]]></place>
     </injection>
+    <injection language="JPAQL" injector-id="java">
+      <display-name>JpaCursorItemReaderBuilder.queryString (org.springframework.batch.item.database.builder)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("queryString").withParameters("java.lang.String").definedInClass("org.springframework.batch.item.database.builder.JpaCursorItemReaderBuilder"))]]></place>
+    </injection>
   </component>
 </application>
