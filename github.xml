@@ -1,0 +1,7 @@
+<application>
+  <component name="GithubAccounts">
+    <account id="f9b42dc8-8153-4a65-a738-1e34fb6358fb" name="raegon">
+      <server useHttp="false" host="github.sec.samsung.net" />
+    </account>
+  </component>
+</application>
