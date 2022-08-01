@@ -1,6 +1,5 @@
 <application>
   <component name="UISettings">
-    <option name="EDITOR_TAB_LIMIT" value="2" />
     <option name="MAX_LOOKUP_LIST_HEIGHT" value="19" />
     <option name="MAX_LOOKUP_WIDTH2" value="938" />
     <option name="SHOW_MAIN_TOOLBAR" value="true" />
