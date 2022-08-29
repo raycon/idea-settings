@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File 'C:\Users\raegon.kim\.gradle\caches\modules-2\files-2.1\org.springframework\spring-context\5.0.2.RELEASE\50c0b7ba09c2819f66aa3500080320cdb743cf20\spring-context-5.0.2.RELEASE-sources.jar!\org\springframework\context\support\GenericApplicationContext.java [Gradle: org.springframework:spring-context:5.0.2.RELEASE]'" />
-    <option name="defaultScopeName" value="File 'C:\Users\raegon.kim\.gradle\caches\modules-2\files-2.1\org.springframework\spring-context\5.0.2.RELEASE\50c0b7ba09c2819f66aa3500080320cdb743cf20\spring-context-5.0.2.RELEASE-sources.jar!\org\springframework\context\support\GenericApplicationContext.java [Gradle: org.springframework:spring-context:5.0.2.RELEASE]'" />
-    <option name="SEARCH_SCOPE" value="File 'C:\Users\raegon.kim\.gradle\caches\modules-2\files-2.1\org.springframework\spring-context\5.0.2.RELEASE\50c0b7ba09c2819f66aa3500080320cdb743cf20\spring-context-5.0.2.RELEASE-sources.jar!\org\springframework\context\support\GenericApplicationContext.java [Gradle: org.springframework:spring-context:5.0.2.RELEASE]'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
