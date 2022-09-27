@@ -3,7 +3,7 @@
     <property name="created">2022-08-20T19:12:47</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2021.3.0.0</property>
-    <property name="modified">2022-08-22T17:12:50</property>
+    <property name="modified">2022-09-27T13:48:50</property>
     <property name="originalScheme">Raycon 220801</property>
   </metaInfo>
   <colors>
@@ -1004,6 +1004,11 @@
       <value>
         <option name="FOREGROUND" value="dcdcdc" />
         <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="NOT_TOP_FRAME_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="223333" />
       </value>
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
