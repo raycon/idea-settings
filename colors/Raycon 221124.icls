@@ -1,0 +1,25 @@
+<scheme name="Raycon 221124" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="created">2022-11-24T19:10:38</property>
+    <property name="ide">idea</property>
+    <property name="ideVersion">2022.2.4.0.0</property>
+    <property name="modified">2022-11-24T19:19:35</property>
+    <property name="originalScheme">_@user_Darcula</property>
+  </metaInfo>
+  <attributes>
+    <option name="TEXT">
+      <value>
+        <option name="FOREGROUND" value="d4d4d4" />
+        <option name="BACKGROUND" value="262626" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="TODO_DEFAULT_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="bef264" />
+        <option name="FONT_TYPE" value="2" />
+        <option name="ERROR_STRIPE_COLOR" value="bef264" />
+      </value>
+    </option>
+  </attributes>
+</scheme>
