@@ -3,6 +3,9 @@
   <JavaCodeStyleSettings>
     <option name="VISIBILITY" value="packageLocal" />
   </JavaCodeStyleSettings>
+  <Markdown>
+    <option name="MAX_LINES_AROUND_BLOCK_ELEMENTS" value="0" />
+  </Markdown>
   <SqlCodeStyleSettings version="6">
     <option name="SELECT_ALIGN_AS" value="false" />
   </SqlCodeStyleSettings>
