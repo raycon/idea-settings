@@ -1,22 +1,18 @@
 <code_scheme name="Default" version="173">
-  <option name="ENABLE_SECOND_REFORMAT" value="true" />
-  <JavaCodeStyleSettings>
-    <option name="VISIBILITY" value="packageLocal" />
-  </JavaCodeStyleSettings>
-  <SqlCodeStyleSettings version="6">
-    <option name="SELECT_ALIGN_AS" value="false" />
-  </SqlCodeStyleSettings>
-  <codeStyleSettings language="JAVA">
+  <editorconfig>
+    <option name="ENABLED" value="false" />
+  </editorconfig>
+  <codeStyleSettings language="Groovy">
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
       <option name="CONTINUATION_INDENT_SIZE" value="4" />
       <option name="TAB_SIZE" value="2" />
     </indentOptions>
   </codeStyleSettings>
-  <codeStyleSettings language="JavaScript">
+  <codeStyleSettings language="JAVA">
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
-      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
       <option name="TAB_SIZE" value="2" />
     </indentOptions>
   </codeStyleSettings>
