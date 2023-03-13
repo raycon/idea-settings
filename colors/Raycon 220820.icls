@@ -1,11 +1,15 @@
 <scheme name="Raycon 220820" version="142" parent_scheme="Darcula">
+  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="created">2022-11-24T19:10:38</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2022.2.4.0.0</property>
-    <property name="modified">2022-11-24T19:30:29</property>
+    <property name="modified">2023-03-13T14:23:59</property>
     <property name="originalScheme">_@user_Darcula</property>
   </metaInfo>
+  <option name="LINE_SPACING" value="1.0" />
+  <option name="EDITOR_FONT_SIZE" value="14" />
+  <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="295622" />
     <option name="CARET_COLOR" value="f5f5f5" />
@@ -15,7 +19,6 @@
     <option name="DIAGRAM_BEND_SELECTION" value="2ecc71" />
     <option name="DIAGRAM_COARSE_GRID" value="303030" />
     <option name="DIAGRAM_EDGE_SELECTION" value="f1c40f" />
-    <option name="DIAGRAM_FINE_GRID" value="303030" />
     <option name="DIAGRAM_GENERALIZATION_EDGE" value="3498db" />
     <option name="DIAGRAM_INNER_EDGE" value="e74c3c" />
     <option name="DIAGRAM_NODE_BORDER" value="505050" />
@@ -24,22 +27,6 @@
     <option name="DIAGRAM_SELECTED_NODE_BORDER" value="e67e22" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="303030" />
     <option name="DOCUMENTATION_COLOR" value="" />
-    <option name="FILESTATUS_ADDED" value="629755" />
-    <option name="FILESTATUS_DELETED" value="6c6c6c" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="6c6c6c" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="848504" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="d5756c" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="d5756c" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="d5756c" />
-    <option name="FILESTATUS_MERGED" value="9876aa" />
-    <option name="FILESTATUS_MODIFIED" value="6897bb" />
-    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="6897bb" />
-    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="6897bb" />
-    <option name="FILESTATUS_UNKNOWN" value="d1675a" />
-    <option name="FILESTATUS_addedOutside" value="629755" />
-    <option name="FILESTATUS_changelistConflict" value="d5756c" />
-    <option name="FILESTATUS_modifiedOutside" value="6897bb" />
-    <option name="FOLDED_TEXT_BORDER_COLOR" value="43474a" />
     <option name="GUTTER_BACKGROUND" value="262626" />
     <option name="INDENT_GUIDE" value="303030" />
     <option name="LINE_NUMBERS_COLOR" value="808080" />
@@ -52,12 +39,10 @@
     <option name="PROMOTION_PANE" value="1a3967" />
     <option name="QUESTION_HINT" value="1a3967" />
     <option name="RECENT_LOCATIONS_SELECTION" value="" />
-    <option name="RECURSIVE_CALL_ATTRIBUTES" value="574300" />
     <option name="RIGHT_MARGIN_COLOR" value="303030" />
     <option name="SELECTED_INDENT_GUIDE" value="303030" />
     <option name="SELECTED_TEARLINE_COLOR" value="808080" />
     <option name="SELECTION_BACKGROUND" value="2c3e50" />
-    <option name="SELECTION_FOREGROUND" value="" />
     <option name="TEARLINE_COLOR" value="404040" />
     <option name="VISUAL_INDENT_GUIDE" value="303030" />
     <option name="WHITESPACES" value="505050" />
@@ -529,9 +514,6 @@
         <option name="FOREGROUND" value="80b050" />
       </value>
     </option>
-    <option name="DEFAULT_OPERATION_SIGN">
-      <value />
-    </option>
     <option name="DEFAULT_PARAMETER">
       <value>
         <option name="FOREGROUND" value="6495ed" />
@@ -586,14 +568,6 @@
         <option name="FOREGROUND" value="cd8c95" />
       </value>
     </option>
-    <option name="DELETED_TEXT_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="bbbbbb" />
-        <option name="BACKGROUND" value="450505" />
-        <option name="EFFECT_COLOR" value="c3c3c3" />
-        <option name="EFFECT_TYPE" value="3" />
-      </value>
-    </option>
     <option name="DEPRECATED_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="cd5c5c" />
@@ -631,11 +605,6 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="DUPLICATE_FROM_SERVER">
-      <value>
-        <option name="BACKGROUND" value="5e5339" />
-      </value>
-    </option>
     <option name="ENUM_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="80b050" />
@@ -646,17 +615,6 @@
         <option name="EFFECT_COLOR" value="cd5c5c" />
         <option name="ERROR_STRIPE_COLOR" value="cd5c5c" />
         <option name="EFFECT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="EXECUTIONPOINT_ATTRIBUTES">
-      <value>
-        <option name="BACKGROUND" value="2d6099" />
-      </value>
-    </option>
-    <option name="FOLDED_TEXT_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="8c8c8c" />
-        <option name="BACKGROUND" value="3a3a3a" />
       </value>
     </option>
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
@@ -673,7 +631,6 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="GROOVY_KEYWORD" baseAttributes="JAVA_KEYWORD" />
     <option name="HTML_ATTRIBUTE_VALUE">
       <value>
         <option name="FOREGROUND" value="f0c090" />
@@ -723,11 +680,6 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
-    <option name="INJECTED_LANGUAGE_FRAGMENT">
-      <value>
-        <option name="BACKGROUND" value="364135" />
-      </value>
-    </option>
     <option name="INLAY_DEFAULT">
       <value>
         <option name="FOREGROUND" value="555555" />
@@ -739,19 +691,12 @@
         <option name="BACKGROUND" value="303030" />
       </value>
     </option>
-    <option name="INLINE_PARAMETER_HINT_CURRENT">
-      <value>
-        <option name="FOREGROUND" value="acacac" />
-        <option name="BACKGROUND" value="305d78" />
-      </value>
-    </option>
     <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
       <value>
         <option name="FOREGROUND" value="696969" />
         <option name="BACKGROUND" value="303030" />
       </value>
     </option>
-    <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="INSTANCE_FINAL_FIELD_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="b0c4de" />
@@ -1030,13 +975,6 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
-    <option name="SEARCH_RESULT_ATTRIBUTES">
-      <value>
-        <option name="BACKGROUND" value="155221" />
-        <option name="ERROR_STRIPE_COLOR" value="530d" />
-      </value>
-    </option>
-    <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
     <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="f0c090" />
@@ -1047,11 +985,6 @@
       <value>
         <option name="FOREGROUND" value="efc090" />
         <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="ae8abe" />
       </value>
     </option>
     <option name="TERMINAL_COMMAND_TO_RUN_USING_IDE">
@@ -1084,17 +1017,6 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="TYPO">
-      <value>
-        <option name="EFFECT_COLOR" value="659c6b" />
-        <option name="EFFECT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="UNMATCHED_BRACE_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="d1243b" />
-      </value>
-    </option>
     <option name="Unresolved reference access">
       <value>
         <option name="EFFECT_COLOR" value="808080" />
@@ -1112,12 +1034,6 @@
       <value>
         <option name="BACKGROUND" value="40332b" />
         <option name="ERROR_STRIPE_COLOR" value="b56277" />
-      </value>
-    </option>
-    <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
-      <value>
-        <option name="BACKGROUND" value="532b2e" />
-        <option name="ERROR_STRIPE_COLOR" value="8d4457" />
       </value>
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
