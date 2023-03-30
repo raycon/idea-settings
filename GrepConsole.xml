@@ -15,7 +15,7 @@
           <option name="models">
             <list>
               <GrepModel>
-                <option name="expression" value="" />
+                <option name="expression" value="Jpa is" />
               </GrepModel>
             </list>
           </option>
@@ -24,7 +24,16 @@
           <option name="models">
             <list>
               <GrepModel>
-                <option name="expression" value="Jpa is" />
+                <option name="expression" value="No context holder available for job scope" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="" />
               </GrepModel>
             </list>
           </option>
@@ -189,6 +198,6 @@
         </Profile>
       </list>
     </option>
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
 </application>

@@ -3,6 +3,10 @@
     <option name="pluginIds">
       <list>
         <option value="com.intellij.bigdatatools" />
+        <option value="aws.toolkit" />
+        <option value="com.haulmont.jpab" />
+        <option value="com.intellij.spring.batch" />
+        <option value="com.intellij.javaee.batch" />
       </list>
     </option>
   </component>
