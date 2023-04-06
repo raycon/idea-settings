@@ -18,4 +18,7 @@
   <component name="InlayHintsSettings">
     <option name="lastViewedProviderKeyId" value=".inheritors" />
   </component>
+  <component name="JavaCodeFoldingSettings">
+    <option name="collapseOneLineMethods" value="false" />
+  </component>
 </application>
