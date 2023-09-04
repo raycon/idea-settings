@@ -1,6 +1,8 @@
 <application>
   <component name="UISettings">
-    <option name="EDITOR_TAB_LIMIT" value="2" />
+    <option name="ACTIVATE_MRU_EDITOR_ON_CLOSE" value="true" />
+    <option name="EDITOR_TAB_LIMIT" value="100" />
+    <option name="EDITOR_TAB_PLACEMENT" value="0" />
     <option name="MAX_LOOKUP_WIDTH2" value="1558" />
   </component>
 </application>
